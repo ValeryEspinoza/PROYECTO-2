@@ -41,10 +41,15 @@ btnGuardar.addEventListener("click",function () {
     contenedorTareas.appendChild(etiquetaButton2)
     
     btnDelete.addEventListener("click",function () {
-        
+        for (let index = 0; index < listaTareas.length; index++) {
+            if (listaTareas[index]) {
+            
+            }
+            
+        }
     })    
-    
     }
+
 
     if (inputSelec.value== "eventos") {
         let datoInput = sumaDateTask
