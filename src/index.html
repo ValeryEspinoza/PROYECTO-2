@@ -8,29 +8,39 @@
 </head>
 <body>
 <!-- tabla de tareas-->
-    <input id="fechaInput" type="date" >
-    <input id="tareaInput" type="text">
-    <button id="btnGuardar">Guardar</button>
-<br>
-    <p>Clasificacion</p>
-    <input id="inputSelec" type="text">
-    <select  disabled="inputSelec">select</select>
+    
 
+
+    <p>Ingrese Dato</p>
+    <input id="fechaInput" type="text">
+    <input id="tareaInput" type="text">
+    
+    <select name="Clasificacion" id="inputSelec">
+        <option value="Clasificacion">Clasificación</option>
+        <option value="eventos">Evento</option>
+        <option value="tareas"> Tarea</option>
+    </select>
+    <button id="btnGuardar">Guardar</button>
+<br><br>
+    <hr>
+
+    <div id="contenedorTarea" class="contenedorTarea"></div>
+
+<!--Evento-->
 
 
 <div class="columnsTable">
-    <div>
-    <p>Evento</p>
-    <div id="divEventos"></div>
+    <div class="column1">
+     <p>Eventos</p>
+    <div  id="divEventos"></div>
     <button id="btnEvento"></button>
     </div> 
 
-    <div>
-
-    <p>Tarea</p>
+<!--tarea-->
+    <div class="column2">
+    <p>Tareas</p>
     <div id="divTareas"></div>
         <button class="btnTarea"></button>
-
     </div>
 </div>
 

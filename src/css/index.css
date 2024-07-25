@@ -1,6 +1,23 @@
 .columnsTable{
     display: grid;
     grid-template-columns: 50% 50%;
+  
+   
+}
+
+.column1{
+    background-color: aquamarine;
     padding: 1em;
+    height: auto;
+}
+
+
+.column2{
+    background-color: pink;
+    padding: 1em;
+    height: auto;
+}
+.contenedorTarea{
+    background-color: bisque;
    
 }
