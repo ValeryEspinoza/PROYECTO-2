@@ -6,26 +6,47 @@
     <title>contenido</title>
     <link rel="stylesheet" href="/PROYECTO-2/src/css/index.css">
 </head>
-<body>
-<!-- tabla de tareas-->
-    
+<body>      
+    <section>
+        <p>Ingreso, nombre, fecha</p>
+    </section>
 
+    <hr>
 
-    <p>Ingrese Dato</p>
-    <input id="fechaInput" type="text">
-    <input id="tareaInput" type="text">
+    <section>
+        <div>
+        <input placeholder="Ingresar Fecha" id="fechaInput" type="text">
+        <input placeholder="Ingresar Tarea o Evento" id="tareaInput" type="text">
+        </div>
     
     <select name="Clasificacion" id="inputSelec">
         <option value="Clasificacion">Clasificación</option>
         <option value="eventos">Evento</option>
         <option value="tareas"> Tarea</option>
     </select>
-    <button id="btnGuardar">Guardar</button>
-<br><br>
+    
+    <select name="prioridad" id="prioridadSelect">
+
+        <option value="prioridad">Prioridad</option>
+        <option value="Prioridad: Alta">ALTA</option>
+        <option value="Prioridad: Regular">REGULAR</option>
+        <option value="Prioridad: Intermedio">INTERMEDIO</option>
+
+
+
+    </select>
+    <button id="btnGuardar" >Guardar</button>
+    </section>
+
+
+
     <hr>
+<!-- tabla de tareas-->
+    <section>
 
+        <p>contenedor de eventos y tareas</p>
     <div id="contenedorTarea" class="contenedorTarea"></div>
-
+        
 <!--Evento-->
 
 
@@ -34,6 +55,7 @@
      <p>Eventos</p>
     <div  id="divEventos"></div>
     <button id="btnEvento"></button>
+ 
     </div> 
 
 <!--tarea-->
@@ -41,12 +63,18 @@
     <p>Tareas</p>
     <div id="divTareas"></div>
         <button class="btnTarea"></button>
+        <button id="btnDelete"></button>
     </div>
 </div>
 
+</section>
+</div>
 
 
-
+<hr>
+<footer>
+    <p>Pie de pagina</p>
+</footer>
 
 
 <script src="/PROYECTO-2/src/js/index.js"></script>

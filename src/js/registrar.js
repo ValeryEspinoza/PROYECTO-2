@@ -7,7 +7,7 @@ const apellido = document.getElementById("apellido")
 const btnResgistro= document.getElementById("btnRegistrar")
 const pass = document.getElementById("pass")
 
-let listaUsuarios= []
+let listaUsuarios= JSON.parse(localStorage.getItem("task"))||[]
 
 
 
@@ -22,7 +22,7 @@ btnResgistro.addEventListener("click",function () {
     }
     let task = registrarUsuario
 
-    listaUsuarios.push(registrarUsuario)
+    listaUsuarios.push(task)
     console.log(listaUsuarios)
 
 
