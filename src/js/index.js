@@ -20,7 +20,7 @@ let listaEventos= JSON.parse(localStorage.getItem("listEvent"))||[]
 
 
 
-btnGuardar.addEventListener("click",function () {
+btnGuardar.addEventListener("click", function () {
     
     if (inputSelec.value == "eventos" ) {
         let sumaEventDate = fecha.value +  " " + ingresarTarea.value
@@ -47,7 +47,7 @@ btnGuardar.addEventListener("click",function () {
 
     buttonEvent.addEventListener("click", function() {
         let valoresEventDelete= JSON.parse(localStorage.getItem("listEvent"))||[] 
-        const listaEventActualizada= valoresEventDelete.filter(tareaEvent=> tareaEvent != etiquetaEvent.textContent)PROYECTGI
+        const listaEventActualizada= valoresEventDelete.filter(tareaEvent=> tareaEvent != etiquetaEvent.textContent)
         localStorage.setItem("listEvent", JSON.stringify(listaEventActualizada))
         
         etiquetaEvent.remove()
