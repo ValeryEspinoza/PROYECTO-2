@@ -53,9 +53,7 @@ body{
     background-color:#f4f4f44e;
     height: 520px;
     width: 80%;
-    align-content: center;
-   
-    
+    align-content: center;    
 }
 
 
@@ -65,8 +63,7 @@ body{
     height: 35px;
     border-color: #cfac9ba5;
     background-color: #ebeff5bd;
-    text-align: center 
-    
+    text-align: center     
 }
 .inputCorreo:hover{
     background-color: #c0b8b8;
@@ -149,3 +146,25 @@ margin-bottom: 2em;
     border-color: #be8267a5;
 }
 
+@media(max-width:700px){
+    .contenedor1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: none;
+        
+    }
+    .bodyDiv{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+
+}
+    
+    @media(max-width:580px){
+    .inputCorreo{
+        width: 100%;
+    }
+    .contra{
+        width: 100%;
+    }
+}
