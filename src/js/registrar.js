@@ -12,8 +12,11 @@ let listaUsuarios= JSON.parse(localStorage.getItem("task"))||[]
 
 
 
+
 btnResgistro.addEventListener("click",function () {
     
+
+    let men = document.getElementById("men")
     let registrarUsuario= {
         correo: correo.value,
         nombre: nombre.value,
@@ -24,10 +27,15 @@ btnResgistro.addEventListener("click",function () {
 
     listaUsuarios.push(task)
     console.log(listaUsuarios)
+    
+    let modal= document.createElement("p")
+    modal.innerHTML="¡Registro Exitoso! Ya puedes ingresar"
+    men.appendChild(modal)
 
-
+    console.log(55);
+    
     localStorage.setItem("task", JSON.stringify(listaUsuarios))
 
-    console.log("INGRESO EXITOSO")
+    
 })
 

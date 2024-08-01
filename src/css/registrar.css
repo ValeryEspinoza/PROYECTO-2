@@ -1,0 +1,94 @@
+.navMain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #efe7dd;
+    height: 80px;
+   
+}
+
+.bodyDiv{
+    height: 600px;
+    background: url("/PROYECTO-2/src/img/registar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    align-content: center;
+    text-align: center;
+}
+.yrelavLogo{
+    width: 15%;
+    height: 80px;
+    border-radius: 50%;
+    border-color: 1px solid #9b4922;
+}
+.imgBackground{
+    width: 100%;
+   height: 50px;
+}
+.container-fluid{
+    align-content: center;
+    text-align: center;
+   height: 80px;
+}
+
+.inputSearch{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-color: #cfac9ba5;
+    background-color: #ebeff5bd;
+}
+.inputSearch:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+    font-size: 14px;
+}
+.logoBuscar{
+    height: 20px;
+    
+}
+.btn-outline-success:hover{
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+}
+
+.contenedorDos{
+    width:100%;
+    height: 600px;
+    background-color:#87838338;
+    align-content: center;
+}
+
+.contenedorTres{
+
+    height: 300px;
+    align-content: end;
+}
+
+.inputEstiloUno{
+    margin-bottom: 10px;
+    width: 30%;
+    height: 30px;
+    border-color: #edd1c380;
+    background-color:#be83674a;
+    text-align: center;
+    
+}
+
+.inputEstiloUno:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+}
+
+.btnRegistrar{
+    height: 30px;
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+    margin-bottom: 2em;
+    }
+    
+    .btnRegistrar:hover{
+        background-color: #c0b8b8;
+        border-color:#d5dae1bd;
+        
+    }

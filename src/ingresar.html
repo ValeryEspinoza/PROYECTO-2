@@ -3,34 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In</title>
     <link rel="stylesheet" href="/PROYECTO-2/src/css/ingresar.css">
 </head>
 <body>
     <!--Log In -->
+    <nav class="navMain">
+        <nav class="navbar bg-body-tertiary">
+            <img class="yrelavLogo" src="/PROYECTO-2/src/img/Título.png" alt="Logo YRELAV">
+        </nav>
 
-    <div class="body">
-    <section>
-        <p>Bienvenido </p>
-    </section>
-
-    <section>
-    <p>Correo</p>
-    <input id="correoI" type="email">
-    <p>Password</p>
-    <input id="passI" type="password" >
-    <link id="link" rel="stylesheet" >
-    <button id="btnIngresar">Iniciar Secion</button>
-
-    </section>
-    <footer>
-        <div>
-            <a href="http://">¿Perdiste tu contraseña? </a>
-        
+        <div class="container-fluid">
+              
+              <form class="d-flex" role="search">
+                <input class="inputSearch" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-outline-success" type="submit"><img class="logoBuscar" src="/PROYECTO-2/src/img/busqueda.png" alt=""></button>
+              </form>
         </div>
-        
-        <a href="http:///PROYECTO-2/src/js/registrar.js">¿No tienes Cuenta? Registrate</a>
-    </footer>
+       
+    </nav>
+
+    <div class="bodyDiv">
+            
+            <div class="firtColum">
+                <div class="contenedor1">
+                <section class="textoContent">
+                    <p>¡Bienvenido a YRELAV! </p>
+                    <p></p>
+                </section>
+
+                <section>
+
+               
+                <input class="inputCorreo"  placeholder="Ingresar Correo" id="correoI" type="email">
+                
+                <input class="contra" id="passI" placeholder="Ingresar Contraseña"   type="password" >
+                <br>
+                <button class="btnIniciarSecion" id="btnIngresar">Iniciar Secion</button>
+                
+                <div id="men">
+
+                </div>
+                
+                   <p> ¿No tienes Cuenta? <a href="http://127.0.0.1:5500/PROYECTO-2/src/registrar.html">¡Registrate!</a></p> 
+                
+                
+
+                </section>
+                </div>
+                
+            
+            </div>
+
+            <div class="secondColumn">
+
+                <div class="contenedorDos">
+               <p> articulo</p>
+                </div>
+                
+            </div>
+            
 
 </div>
 <script src="/PROYECTO-2/src/js/ingresar.js"></script>

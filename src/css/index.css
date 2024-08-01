@@ -1,14 +1,160 @@
+.navMain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #efe7dd;
+    height: 80px;
+   
+}
+
+.bodyDiv{
+    font-family: 'Times New Roman', Times, serif;
+    height: 600px;
+    background: url("/PROYECTO-2/src/img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+   
+}
+.yrelavLogo{
+    width: 15%;
+    height: 80px;
+    border-radius: 50%;
+    border-color: 1px solid #9b4922;
+}
+.imgBackground{
+    width: 100%;
+   height: 50px;
+}
+
+
+.container-fluid{
+    align-content: center;
+    text-align: center;
+   height: 80px;
+}
+
+.inputSearch{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-color: #cfac9ba5;
+    background-color: #ebeff5bd;
+}
+.inputSearch:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+    font-size: 14px;
+}
+.logoBuscar{
+    height: 20px;
+    
+}
+.btn-outline-success:hover{
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+}
+
+.contenedorDegradado{
+    width:100%;
+    height: 600px;
+    background-color:#1110106e;
+   
+}
+
+.saludo{
+    display: flex;
+    justify-content: center;
+    height:200px;
+   text-align: center;
+   align-content: center;
+   padding: 1em;
+  
+}
+
+.contenedorSaludo{
+    font-size: 20px;
+    color: #9b4922;
+    background-color: #e8dadac3;
+    width: 60%;
+    align-content: center;
+    padding: 1em;
+}
+
+.inputEstiloUno{
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+    border-color: #c66f44c1;
+    background-color:#ffd9c8bd;
+    text-align: center;
+    
+}
+
+.inputEstiloUno:hover{
+    background-color: #c0b8b8;
+    border-color: rgba(93, 71, 63, 0.406);
+}
+
+.seccionBotonesContenedor{
+    align-content: center;
+    text-align: center;
+}
+.btn{
+    height: 30px;
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+    margin-bottom: 2em;
+    text-align: center;
+    }
+    
+    .btn:hover{
+        background-color: #c0b8b8;
+        border-color:#d5dae1bd;
+        
+    }
+
+    .btnGuardar{
+        height: 30px;
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+    margin-bottom: 2em;
+    }
+
+
 .columnsTable{
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.column1{
-    background-color: bisque;
 
+
+.column1{
+    background-color: rgb(221, 190, 153);
+    width: 100%;
+    height:500px ;
     padding: 1em;
+    text-align: center;
+    align-content: start;
 }
 
 .column2{
-    background-color: aquamarine;
+    background-color: rgb(225, 185, 125);
     padding: 1em;
+    width: 100%;
+    height:500px ;
+    padding: 1em;
+    text-align: center;
+    align-content: start;
 }
+
+
+.nombreEvento{
+    font-family: 'Times New Roman', Times, serif;
+
+    color:#fffafa;
+    font-size: 20px;
+}
+
+
+
+
+

@@ -4,23 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/PROYECTO-2/src/css/registrar.css">
 </head>
 <body>
-    <div class="body">
-    <!--Log up -->
-    <p>Nombre</p>
-    <input id="nombre" type="text">
-    <p>Apellido</p>
-    <input id="apellido" type="text">
-    <p>Correo</p>
-    <input id="correo" type="email">
-    <p>Password</p>
-    <input id="pass" type="password" >
+    <nav class="navMain">
+        <nav class="navbar bg-body-tertiary">
+            <img class="yrelavLogo" src="/PROYECTO-2/src/img/Título.png" alt="Logo YRELAV">
+        </nav>
 
-    <div id="divPadre"></div>
-    <button id="btnRegistrar">Registrar</button>
+        <div class="container-fluid">
+              
+              <form class="d-flex" role="search">
+                <input class="inputSearch" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-outline-success" type="submit"><img class="logoBuscar" src="/PROYECTO-2/src/img/busqueda.png" alt=""></button>
+              </form>
+        </div>
+       
+    </nav>
+
+    <div class="bodyDiv">
+
+        <div class="contenedorDos">
+            <div class="contenedorTres">
+                <div id="men">
+
+                </div>
+               
+            <div>
+                <input class="inputEstiloUno" placeholder="Nombre" id="nombre" type="text">
+            </div>
+            <div>
+                <input class="inputEstiloUno" placeholder="Apellido" id="apellido" type="text">
+            </div>
+            <div>
+                <input class="inputEstiloUno" placeholder="Correo Electronico" id="correo" type="email">
+            </div>  
+           <div>
+            <input class="inputEstiloUno" placeholder="Contraseña" id="pass" type="password" >
+           </div>
+           
+            <button class="btnRegistrar" id="btnRegistrar">Registrar</button>
+            <br>
+            <a href="http://127.0.0.1:5500/PROYECTO-2/src/ingresar.html">Ir a Ingresar</a>
+        </div>
+        </div>
+
+    
     </div>
-
+    
 <script src="/PROYECTO-2/src/js/registrar.js"></script>
 </body>
 </html>

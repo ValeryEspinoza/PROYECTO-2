@@ -1,0 +1,151 @@
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.navMain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #efe7dd;
+    height: 80px;
+   
+}
+
+
+
+.bodyDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 600px;
+    background: url("/PROYECTO-2/src/img/ingresar Img.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+  
+    
+}
+.yrelavLogo{
+    width: 15%;
+    height: 80px;
+    border-radius: 50%;
+    border-color: 1px solid #9b4922;
+}
+.imgBackground{
+    width: 100%;
+   height: 50px;
+}
+
+.firtColum{
+    padding: 1em;
+    height: 520px;
+    align-content: center;
+    text-align: center;
+}
+
+.secondColumn{
+    padding: 1em;
+    height: 520px; 
+}
+
+.contenedor1{
+    margin: 1em;
+    padding: 1em;
+    background-color:#f4f4f44e;
+    height: 520px;
+    width: 80%;
+    align-content: center;
+   
+    
+}
+
+
+.inputCorreo{
+    margin-bottom: 10px;
+    width: 60%;
+    height: 35px;
+    border-color: #cfac9ba5;
+    background-color: #ebeff5bd;
+    text-align: center 
+    
+}
+.inputCorreo:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+}
+
+.contra{
+    margin-bottom: 10px;
+    width: 60%;
+    height: 35px;
+    border-color: #cfac9ba5;
+    background-color: #ebeff5bd;
+    text-align: center 
+}
+
+.contra:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+}
+
+.btnIniciarSecion{
+height: 30px;
+background-color: #d5dae1bd;
+border-color: #be8267a5;
+margin-bottom: 2em;
+}
+
+.btnIniciarSecion:hover{
+    background-color: #c0b8b8;
+    border-color:#d5dae1bd;
+    
+}
+
+.textoContent{
+
+    height: auto;
+    margin-bottom: 3em;
+    font-size: 17px;
+    
+}
+
+.container-fluid{
+    align-content: center;
+    text-align: center;
+   height: 80px;
+}
+
+.inputSearch{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-color: #cfac9ba5;
+    background-color: #ebeff5bd;
+}
+.inputSearch:hover{
+    background-color: #c0b8b8;
+    border-color: #be8267a5;
+    font-size: 14px;
+}
+
+.btn-outline-success{
+    padding-bottom: 1em;
+     align-content: center;
+    text-align: center; 
+    height: 50px;
+    width: 8%;
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+  
+}
+
+.logoBuscar{
+    height: 20px;
+    
+}
+
+.btn-outline-success:hover{
+    background-color: #d5dae1bd;
+    border-color: #be8267a5;
+}
+

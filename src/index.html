@@ -6,77 +6,98 @@
     <title>contenido</title>
     <link rel="stylesheet" href="/PROYECTO-2/src/css/index.css">
 </head>
-<body>      
-    <section>
-        <p>Ingreso, nombre, fecha</p>
-    </section>
+<body onload="cargar()">  
+   
+    
+    <nav class="navMain">
+        <nav >
+            <img class="yrelavLogo" src="/PROYECTO-2/src/img/Título.png" alt="Logo YRELAV">
+        </nav>
 
-    <hr>
-
-    <section>
-        <div>
-        <input placeholder="Ingresar Fecha" id="fechaInput" type="text">
-        <input placeholder="Ingresar Tarea o Evento" id="tareaInput" type="text">
+        <div class="container-fluid">
+              
+              <form class="d-flex" role="search">
+                <input class="inputSearch" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-outline-success" type="submit"><img class="logoBuscar" src="/PROYECTO-2/src/img/busqueda.png" alt=""></button>
+              </form>
         </div>
-    
-    <select name="Clasificacion" id="inputSelec">
-        <option value="Clasificacion">Clasificación</option>
-        <option value="eventos">Evento</option>
-        <option value="tareas"> Tarea</option>
-    </select>
-    
-    <select name="prioridad" id="prioridadSelect">
+       
+    </nav>
 
-        <option value="prioridad">Prioridad</option>
-        <option value="Prioridad: Alta">ALTA</option>
-        <option value="Prioridad: Regular">REGULAR</option>
-        <option value="Prioridad: Intermedio">INTERMEDIO</option>
+    <div class="bodyDiv">
+        <div class="contenedorDegradado">
+
+            <section class="saludo">
+            <div class="contenedorSaludo">
+                <p>En este lugar encontrarás todo lo que necesitas y mucho más.</p>
+                <p>¡Bienvenido/a!</p>
+            </div>
+            </section>
+
+            
+
+            <section class="seccionBotonesContenedor">
+                <div>
+                <input class="inputEstiloUno" placeholder="Ingresar Fecha" id="fechaInput" type="text">
+                <input class="inputEstiloUno"  placeholder="Ingresar Tarea o Evento" id="tareaInput" type="text">
+                </div>
+                
+                <select class="btn" name="Clasificacion" id="inputSelec">
+                    <option value="Clasificacion">Clasificación</option>
+                    <option value="eventos">Evento</option>
+                    <option value="tareas"> Tarea</option>
+                </select>
+            
+                <select class="btn" name="prioridad" id="prioridadSelect">
+
+                    <option value="prioridad">Prioridad</option>
+                    <option value="Prioridad: Alta">ALTA</option>
+                    <option value="Prioridad: Regular">REGULAR</option>
+                    <option value="Prioridad: Intermedio">INTERMEDIO</option>
+                </select>
+                <br>
+                 <button class="btnGuardar" id="btnGuardar" >Guardar</button>
+            </section>
+
+        <!-- Descripcion del funcionamiento-->
+            <section>
+
+                <p>contenedor de eventos y tareas</p>
+
+
+            <div id="contenedorTarea" class="contenedorTarea"></div>
+                        
+                <!--Evento-->
+
+
+            <div class="columnsTable">
+
+                <div class="column1">
+                    <p class="nombreEvento">Eventos</p>
+                    <div id="divEventos">
+                    </div>
+                </div> 
+
+                <!--tarea-->
+                <div class="column2">
+                    <p class="nombreEvento">
+                        Tareas
+                    </p>
+                    <div id="divTareas">
+                    </div>
+                </div>
+            </div>
 
 
 
-    </select>
-    <button id="btnGuardar" >Guardar</button>
-    </section>
+          
 
-
-
-    <hr>
-<!-- tabla de tareas-->
-    <section>
-
-        <p>contenedor de eventos y tareas</p>
-    <div id="contenedorTarea" class="contenedorTarea"></div>
         
-<!--Evento-->
+        </section>
+        </div>
 
-
-<div class="columnsTable">
-    <div class="column1">
-     <p>Eventos</p>
-    <div  id="divEventos"></div>
-    <button id="btnEvento"></button>
- 
-    </div> 
-
-<!--tarea-->
-    <div class="column2">
-    <p>Tareas</p>
-    <div id="divTareas"></div>
-        <button class="btnTarea"></button>
-        <button id="btnDelete"></button>
-    </div>
 </div>
-
-</section>
 </div>
-
-
-<hr>
-<footer>
-    <p>Pie de pagina</p>
-    <input type="date" name="" id="">
-</footer>
-
 
 <script src="/PROYECTO-2/src/js/index.js"></script>
 </body>
